@@ -1,0 +1,1078 @@
+[
+        {
+            "label_menu": "Home",
+            "tautan": "home",
+            "icon": "zmdi zmdi-home",
+            "_matchingData": {
+                "PeranMenu": {}
+            },
+            "children": []
+        },
+        {
+            "id": 389,
+            "label_menu": "Peta Sebaran",
+            "tautan": "peta-sebaran",
+            "icon": "zmdi zmdi-google-maps",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 82449,
+                    "peran_id": 2,
+                    "menu_id": 389
+                }
+            },
+            "children": []
+        },
+        {
+            "id": 384,
+            "label_menu": "Dashboard SLA",
+            "tautan": "dashboard-sla-admin",
+            "icon": "zmdi zmdi-chart",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 82447,
+                    "peran_id": 2,
+                    "menu_id": 384
+                }
+            },
+            "children": []
+        },
+        {
+            "id": 1,
+            "label_menu": "Wilayah",
+            "tautan": "#",
+            "no_urut": 1,
+            "icon": "zmdi zmdi-globe",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 1,
+                    "peran_id": 2,
+                    "menu_id": 1
+                }
+            },
+            "children": [
+                {
+                    "id": 2,
+                    "label_menu": "Desa",
+                    "tautan": "desa",
+                    "parent_id": 1,
+                    "no_urut": 10,
+                    "icon": "zmdi zmdi-landscape",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 2,
+                            "peran_id": 2,
+                            "menu_id": 2
+                        }
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "label_menu": "Setting",
+            "tautan": "#",
+            "no_urut": 2,
+            "icon": "zmdi zmdi-settings",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 409,
+                    "peran_id": 2,
+                    "menu_id": 12
+                }
+            },
+            "children": [
+                {
+                    "id": 13,
+                    "label_menu": "Struktur Instansi",
+                    "tautan": "unit",
+                    "parent_id": 12,
+                    "icon": "zmdi zmdi-balance",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 415,
+                            "peran_id": 2,
+                            "menu_id": 13
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 6,
+                    "label_menu": "Authorisasi",
+                    "tautan": "#",
+                    "parent_id": 12,
+                    "no_urut": 1,
+                    "icon": "zmdi zmdi-accounts-list-alt",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 414,
+                            "peran_id": 2,
+                            "menu_id": 6
+                        }
+                    },
+                    "children": [
+                        {
+                            "id": 65,
+                            "label_menu": "Master Jabatan",
+                            "tautan": "form/list/68",
+                            "parent_id": 6,
+                            "no_urut": 3,
+                            "icon": "zmdi zmdi-bookmark",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 511,
+                                    "peran_id": 2,
+                                    "menu_id": 65
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 8,
+                            "label_menu": "Peran",
+                            "tautan": "peran",
+                            "parent_id": 6,
+                            "no_urut": 6,
+                            "icon": "zmdi zmdi-accounts",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 21171,
+                                    "peran_id": 2,
+                                    "menu_id": 8
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 7,
+                            "label_menu": "Pengguna",
+                            "tautan": "pengguna",
+                            "parent_id": 6,
+                            "no_urut": 7,
+                            "icon": "zmdi zmdi-account",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 423,
+                                    "peran_id": 2,
+                                    "menu_id": 7
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 47,
+                            "label_menu": "Pegawai Instansi",
+                            "tautan": "form/list/52",
+                            "parent_id": 6,
+                            "no_urut": 100,
+                            "icon": "zmdi zmdi-assignment-account",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 429,
+                                    "peran_id": 2,
+                                    "menu_id": 47
+                                }
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 38,
+                    "label_menu": "Seting Umum",
+                    "tautan": "#",
+                    "parent_id": 12,
+                    "no_urut": 4,
+                    "icon": "zmdi zmdi-settings-square",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 410,
+                            "peran_id": 2,
+                            "menu_id": 38
+                        }
+                    },
+                    "children": [
+                        {
+                            "id": 36,
+                            "label_menu": "Kalender",
+                            "tautan": "kalender",
+                            "parent_id": 38,
+                            "no_urut": 600,
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 411,
+                                    "peran_id": 2,
+                                    "menu_id": 36
+                                }
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 18,
+                    "label_menu": "Seting Perizinan",
+                    "tautan": "#",
+                    "parent_id": 12,
+                    "no_urut": 8,
+                    "icon": "zmdi zmdi-check-all",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 404,
+                            "peran_id": 2,
+                            "menu_id": 18
+                        }
+                    },
+                    "children": [
+                        {
+                            "id": 17,
+                            "label_menu": "Jenis Izin",
+                            "tautan": "jenis-izin",
+                            "parent_id": 18,
+                            "no_urut": 50,
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 402,
+                                    "peran_id": 2,
+                                    "menu_id": 17
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 15,
+                            "label_menu": "Alur Proses",
+                            "tautan": "alur-proses",
+                            "parent_id": 18,
+                            "no_urut": 51,
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 424,
+                                    "peran_id": 2,
+                                    "menu_id": 15
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 165,
+                            "label_menu": "Daftar Nomenklatur Unit",
+                            "tautan": "form/list/32033",
+                            "parent_id": 18,
+                            "no_urut": 100,
+                            "icon": "zmdi zmdi-balance",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 57265,
+                                    "peran_id": 2,
+                                    "menu_id": 165
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 34,
+                            "label_menu": "Tarif Izin",
+                            "tautan": "tarif-izin",
+                            "parent_id": 18,
+                            "no_urut": 200,
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 407,
+                                    "peran_id": 2,
+                                    "menu_id": 34
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 33,
+                            "label_menu": "Penomoran",
+                            "tautan": "penomoran",
+                            "parent_id": 18,
+                            "no_urut": 300,
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 406,
+                                    "peran_id": 2,
+                                    "menu_id": 33
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 68,
+                            "label_menu": "Report Component",
+                            "tautan": "report-component",
+                            "parent_id": 18,
+                            "no_urut": 300,
+                            "icon": "zmdi zmdi-developer-board",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 546,
+                                    "peran_id": 2,
+                                    "menu_id": 68
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 53,
+                            "label_menu": "Notifikasi",
+                            "tautan": "notifikasi",
+                            "parent_id": 18,
+                            "no_urut": 500,
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 542,
+                                    "peran_id": 2,
+                                    "menu_id": 53
+                                }
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 26,
+                    "label_menu": "Form \u0026 Data",
+                    "tautan": "#",
+                    "parent_id": 12,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-code-setting",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 405,
+                            "peran_id": 2,
+                            "menu_id": 26
+                        }
+                    },
+                    "children": [
+                        {
+                            "id": 111,
+                            "label_menu": "Unduh Aplikasi",
+                            "tautan": "form/list/11125",
+                            "parent_id": 26,
+                            "no_urut": 16,
+                            "icon": "zmdi zmdi-case-download",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 25492,
+                                    "peran_id": 2,
+                                    "menu_id": 111
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 14,
+                            "label_menu": "Kamus Data",
+                            "tautan": "kamus-data",
+                            "parent_id": 26,
+                            "no_urut": 300,
+                            "icon": "zmdi zmdi-collection-text",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 1276,
+                                    "peran_id": 2,
+                                    "menu_id": 14
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 20,
+                            "label_menu": "Template Data",
+                            "tautan": "template-data",
+                            "parent_id": 26,
+                            "no_urut": 301,
+                            "icon": "zmdi zmdi-collection-bookmark",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 419,
+                                    "peran_id": 2,
+                                    "menu_id": 20
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 25,
+                            "label_menu": "Template Form",
+                            "tautan": "template-form",
+                            "parent_id": 26,
+                            "no_urut": 500,
+                            "icon": "zmdi zmdi-code",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 418,
+                                    "peran_id": 2,
+                                    "menu_id": 25
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 75,
+                            "label_menu": "Element Options",
+                            "tautan": "form/list/96",
+                            "parent_id": 26,
+                            "no_urut": 501,
+                            "icon": "zmdi zmdi-assignment",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 558,
+                                    "peran_id": 2,
+                                    "menu_id": 75
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 54,
+                            "label_menu": "Web Service Eksternal",
+                            "tautan": "service-eksternal",
+                            "parent_id": 26,
+                            "no_urut": 600,
+                            "icon": "zmdi zmdi-cloud-outline-alt",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 75661,
+                                    "peran_id": 2,
+                                    "menu_id": 54
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 101,
+                            "label_menu": "SMS Notifikasi",
+                            "tautan": "form/list/294",
+                            "parent_id": 26,
+                            "no_urut": 1000,
+                            "icon": "zmdi zmdi-assignment",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 30569,
+                                    "peran_id": 2,
+                                    "menu_id": 101
+                                }
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 319,
+                    "label_menu": "SKM",
+                    "tautan": "#",
+                    "parent_id": 12,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 73564,
+                            "peran_id": 2,
+                            "menu_id": 319
+                        }
+                    },
+                    "children": [
+                        {
+                            "id": 320,
+                            "label_menu": "Setting Survey",
+                            "tautan": "form-assessment",
+                            "parent_id": 319,
+                            "no_urut": 1,
+                            "icon": "zmdi zmdi-assignment-check",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 73565,
+                                    "peran_id": 2,
+                                    "menu_id": 320
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 321,
+                            "label_menu": "Hasil Survey",
+                            "tautan": "list-periode",
+                            "parent_id": 319,
+                            "no_urut": 2,
+                            "icon": "zmdi zmdi-format-list-bulleted",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 73566,
+                                    "peran_id": 2,
+                                    "menu_id": 321
+                                }
+                            },
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "label_menu": "Transaksi",
+            "tautan": "#",
+            "no_urut": 3,
+            "icon": "zmdi zmdi-money-box",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 408,
+                    "peran_id": 2,
+                    "menu_id": 21
+                }
+            },
+            "children": [
+                {
+                    "id": 115,
+                    "label_menu": "Daftar Perusahaan",
+                    "tautan": "form/list/11135",
+                    "parent_id": 21,
+                    "no_urut": 10,
+                    "icon": "zmdi zmdi-city",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 25554,
+                            "peran_id": 2,
+                            "menu_id": 115
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 63,
+                    "label_menu": "Registrasi Pemohon",
+                    "tautan": "pemohon-register",
+                    "parent_id": 21,
+                    "no_urut": 40,
+                    "icon": "zmdi zmdi-assignment-account",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 509,
+                            "peran_id": 2,
+                            "menu_id": 63
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 66,
+                    "label_menu": "Daftar Pemohon",
+                    "tautan": "pemohon",
+                    "parent_id": 21,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-accounts-add",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 17248,
+                            "peran_id": 2,
+                            "menu_id": 66
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 94,
+                    "label_menu": "Daftar Izin",
+                    "tautan": "daftar-izin",
+                    "parent_id": 21,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-collection-text",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 45517,
+                            "peran_id": 2,
+                            "menu_id": 94
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 225,
+                    "label_menu": "Proses Izin Berusaha",
+                    "tautan": "proses-nib",
+                    "parent_id": 21,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-storage",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 56541,
+                            "peran_id": 2,
+                            "menu_id": 225
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 226,
+                    "label_menu": "Pengawasan",
+                    "tautan": "form/list/30658",
+                    "parent_id": 21,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-search",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 56849,
+                            "peran_id": 2,
+                            "menu_id": 226
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 240,
+                    "label_menu": "Permohonan Ditolak",
+                    "tautan": "daftar-izin-ditolak",
+                    "parent_id": 21,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment-alert",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 58974,
+                            "peran_id": 2,
+                            "menu_id": 240
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 387,
+                    "label_menu": "Tanda Tangan Elektronik",
+                    "tautan": "signature-tte",
+                    "parent_id": 21,
+                    "no_urut": 140,
+                    "icon": "zmdi zmdi-assignment-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 82448,
+                            "peran_id": 2,
+                            "menu_id": 387
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 19,
+                    "label_menu": "Permohonan Izin",
+                    "tautan": "permohonan-izin",
+                    "parent_id": 21,
+                    "no_urut": 199,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 417,
+                            "peran_id": 2,
+                            "menu_id": 19
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 22,
+                    "label_menu": "Proses Permohonan",
+                    "tautan": "proses-pengajuan",
+                    "parent_id": 21,
+                    "no_urut": 200,
+                    "icon": "zmdi zmdi-view-list",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 416,
+                            "peran_id": 2,
+                            "menu_id": 22
+                        }
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 492,
+            "label_menu": "Log Aplikasi",
+            "tautan": "#",
+            "no_urut": 10,
+            "icon": "zmdi zmdi-collection-text",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 90416,
+                    "peran_id": 2,
+                    "menu_id": 492
+                }
+            },
+            "children": [
+                {
+                    "id": 497,
+                    "label_menu": "Log SMS",
+                    "tautan": "log-sms",
+                    "parent_id": 492,
+                    "no_urut": 1,
+                    "icon": "zmdi zmdi-comments",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 90417,
+                            "peran_id": 2,
+                            "menu_id": 497
+                        }
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "label_menu": "Bantuan Teknis",
+            "tautan": "#",
+            "no_urut": 10,
+            "icon": "zmdi zmdi-account-box-phone",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 73940,
+                    "peran_id": 2,
+                    "menu_id": 133
+                }
+            },
+            "children": [
+                {
+                    "id": 298,
+                    "label_menu": "Lapor Aduan",
+                    "tautan": "aduan",
+                    "parent_id": 133,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-account-box-phone",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 73941,
+                            "peran_id": 2,
+                            "menu_id": 298
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 299,
+                    "label_menu": "Penaganan Aduan",
+                    "tautan": "penanganan-aduan",
+                    "parent_id": 133,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 92049,
+                            "peran_id": 2,
+                            "menu_id": 299
+                        }
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 51,
+            "label_menu": "Laporan \u0026 Dokumen Cetak",
+            "tautan": "form/report/59",
+            "no_urut": 100,
+            "icon": "zmdi zmdi-file-text",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 543,
+                    "peran_id": 2,
+                    "menu_id": 51
+                }
+            },
+            "children": [
+                {
+                    "id": 336,
+                    "label_menu": "Dashboard Per Instansi",
+                    "tautan": "form/report-grid/44957",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-format-align-left",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 75492,
+                            "peran_id": 2,
+                            "menu_id": 336
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 73,
+                    "label_menu": "Permohonan Selesai",
+                    "tautan": "form/report-grid/81",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment-o",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 551,
+                            "peran_id": 2,
+                            "menu_id": 73
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 78,
+                    "label_menu": "Daftar Izin Kecamatan",
+                    "tautan": "form/report-grid/165",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 650,
+                            "peran_id": 2,
+                            "menu_id": 78
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 79,
+                    "label_menu": "Rekap Izin Kecamatan",
+                    "tautan": "form/report-grid/166",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 651,
+                            "peran_id": 2,
+                            "menu_id": 79
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 80,
+                    "label_menu": "Rekap Permohonan Kecamatan",
+                    "tautan": "form/report/167",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 652,
+                            "peran_id": 2,
+                            "menu_id": 80
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 247,
+                    "label_menu": "Rekap laporan Perizinan ",
+                    "tautan": "form/report/23020",
+                    "parent_id": 51,
+                    "no_urut": 150,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 59554,
+                            "peran_id": 2,
+                            "menu_id": 247
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 417,
+                    "label_menu": "Rekap Izin Belum Selesai",
+                    "tautan": "form/report-grid/50479",
+                    "parent_id": 51,
+                    "no_urut": 712,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 85232,
+                            "peran_id": 2,
+                            "menu_id": 417
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 502,
+                    "label_menu": "Rekap Jumlah Izin per Izin",
+                    "tautan": "form/report/54439",
+                    "parent_id": 51,
+                    "no_urut": 890,
+                    "icon": "zmdi zmdi-assignment-o",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 92979,
+                            "peran_id": 2,
+                            "menu_id": 502
+                        }
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 59,
+            "label_menu": "Layanan Pemohon",
+            "tautan": "#",
+            "no_urut": 100,
+            "icon": "zmdi zmdi-account",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 2752,
+                    "peran_id": 2,
+                    "menu_id": 59
+                }
+            },
+            "children": [
+                {
+                    "id": 60,
+                    "label_menu": "Simulasi Tarif",
+                    "tautan": "simulasi-tarif",
+                    "parent_id": 59,
+                    "no_urut": 101,
+                    "icon": "zmdi zmdi-money-box",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 2751,
+                            "peran_id": 2,
+                            "menu_id": 60
+                        }
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 332,
+            "label_menu": "Video Tutorial",
+            "tautan": "video-tutorial/show",
+            "no_urut": 100,
+            "icon": "zmdi zmdi-collection-video",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 74144,
+                    "peran_id": 2,
+                    "menu_id": 332
+                }
+            },
+            "children": []
+        },
+        {
+            "id": 385,
+            "label_menu": "Portal",
+            "tautan": "/",
+            "no_urut": 100,
+            "icon": "zmdi zmdi-card-membership",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 82459,
+                    "peran_id": 2,
+                    "menu_id": 385
+                }
+            },
+            "children": [
+                {
+                    "id": 390,
+                    "label_menu": "Prosedur Operasional",
+                    "tautan": "prosedur-operasional",
+                    "parent_id": 385,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-tab",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 82460,
+                            "peran_id": 2,
+                            "menu_id": 390
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 392,
+                    "label_menu": "Manajemen Galeri",
+                    "tautan": "manajemen-galeri",
+                    "parent_id": 385,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-collection-image",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 82462,
+                            "peran_id": 2,
+                            "menu_id": 392
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 393,
+                    "label_menu": "Artikel",
+                    "tautan": "#",
+                    "parent_id": 385,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-receipt",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 82463,
+                            "peran_id": 2,
+                            "menu_id": 393
+                        }
+                    },
+                    "children": [
+                        {
+                            "id": 397,
+                            "label_menu": "Manajemen Artikel",
+                            "tautan": "artikel",
+                            "parent_id": 393,
+                            "no_urut": 100,
+                            "icon": "zmdi zmdi-receipt",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 82465,
+                                    "peran_id": 2,
+                                    "menu_id": 397
+                                }
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 391,
+                    "label_menu": "Informasi",
+                    "tautan": "#",
+                    "parent_id": 385,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-info-outline",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 85592,
+                            "peran_id": 2,
+                            "menu_id": 391
+                        }
+                    },
+                    "children": [
+                        {
+                            "id": 418,
+                            "label_menu": "Manajemen Informasi",
+                            "tautan": "informasi",
+                            "parent_id": 391,
+                            "no_urut": 100,
+                            "icon": "zmdi zmdi-filter-frames",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 85593,
+                                    "peran_id": 2,
+                                    "menu_id": 418
+                                }
+                            },
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]

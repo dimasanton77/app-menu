@@ -1,0 +1,106 @@
+[
+    {
+        "label_menu": "Home",
+        "tautan": "home",
+        "icon": "zmdi zmdi-home",
+        "_matchingData": {
+            "PeranMenu": {}
+        },
+        "children": []
+    },
+    {
+        "id": 133,
+        "label_menu": "Bantuan Teknis",
+        "tautan": "#",
+        "no_urut": 10,
+        "icon": "zmdi zmdi-account-box-phone",
+        "_matchingData": {
+            "PeranMenu": {
+                "id": 74146,
+                "peran_id": 17,
+                "menu_id": 133
+            }
+        },
+        "children": [
+            {
+                "id": 298,
+                "label_menu": "Lapor Aduan",
+                "tautan": "aduan",
+                "parent_id": 133,
+                "no_urut": 100,
+                "icon": "zmdi zmdi-account-box-phone",
+                "_matchingData": {
+                    "PeranMenu": {
+                        "id": 74147,
+                        "peran_id": 17,
+                        "menu_id": 298
+                    }
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "label_menu": "Layanan Pemohon",
+        "tautan": "#",
+        "no_urut": 100,
+        "icon": "zmdi zmdi-account",
+        "_matchingData": {
+            "PeranMenu": {
+                "id": 488,
+                "peran_id": 17,
+                "menu_id": 59
+            }
+        },
+        "children": [
+            {
+                "id": 58,
+                "label_menu": "Profil dan Permohonan Izin",
+                "tautan": "profile/pemohon",
+                "parent_id": 59,
+                "no_urut": 100,
+                "icon": "zmdi zmdi-assignment-account",
+                "_matchingData": {
+                    "PeranMenu": {
+                        "id": 489,
+                        "peran_id": 17,
+                        "menu_id": 58
+                    }
+                },
+                "children": []
+            },
+            {
+                "id": 60,
+                "label_menu": "Simulasi Tarif",
+                "tautan": "simulasi-tarif",
+                "parent_id": 59,
+                "no_urut": 101,
+                "icon": "zmdi zmdi-money-box",
+                "_matchingData": {
+                    "PeranMenu": {
+                        "id": 490,
+                        "peran_id": 17,
+                        "menu_id": 60
+                    }
+                },
+                "children": []
+            }
+        ]
+    },
+    {
+        "id": 332,
+        "label_menu": "Video Tutorial",
+        "tautan": "video-tutorial/show",
+        "no_urut": 100,
+        "icon": "zmdi zmdi-collection-video",
+        "_matchingData": {
+            "PeranMenu": {
+                "id": 74145,
+                "peran_id": 17,
+                "menu_id": 332
+            }
+        },
+        "children": []
+    }
+]

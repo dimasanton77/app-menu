@@ -1,0 +1,4957 @@
+[
+        {
+            "label_menu": "Home",
+            "tautan": "home",
+            "icon": "zmdi zmdi-home",
+            "_matchingData": {
+                "PeranMenu": {}
+            },
+            "children": []
+        },
+        {
+            "id": 384,
+            "label_menu": "Dashboard SLA",
+            "tautan": "dashboard-sla-admin",
+            "icon": "zmdi zmdi-chart",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 82389,
+                    "peran_id": 1,
+                    "menu_id": 384,
+                    "dibuat_oleh": "otomatis"
+                }
+            },
+            "children": []
+        },
+        {
+            "id": 388,
+            "label_menu": "Dashboard KKI",
+            "tautan": "dashboard-kki",
+            "icon": "zmdi zmdi-hospital-alt",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 82445,
+                    "peran_id": 1,
+                    "menu_id": 388,
+                    "dibuat_oleh": "otomatis"
+                }
+            },
+            "children": []
+        },
+        {
+            "id": 389,
+            "label_menu": "Peta Sebaran",
+            "tautan": "peta-sebaran",
+            "icon": "zmdi zmdi-google-maps",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 82446,
+                    "peran_id": 1,
+                    "menu_id": 389,
+                    "dibuat_oleh": "otomatis"
+                }
+            },
+            "children": []
+        },
+        {
+            "id": 1,
+            "label_menu": "Wilayah",
+            "tautan": "#",
+            "no_urut": 1,
+            "icon": "zmdi zmdi-globe",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 287,
+                    "peran_id": 1,
+                    "menu_id": 1
+                }
+            },
+            "children": [
+                {
+                    "id": 2,
+                    "label_menu": "Desa",
+                    "tautan": "desa",
+                    "parent_id": 1,
+                    "no_urut": 10,
+                    "icon": "zmdi zmdi-landscape",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 289,
+                            "peran_id": 1,
+                            "menu_id": 2
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 3,
+                    "label_menu": "Kecamatan",
+                    "tautan": "kecamatan",
+                    "parent_id": 1,
+                    "no_urut": 20,
+                    "icon": "zmdi zmdi-landscape",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 268,
+                            "peran_id": 1,
+                            "menu_id": 3
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 4,
+                    "label_menu": "Kabupaten",
+                    "tautan": "kabupaten",
+                    "parent_id": 1,
+                    "no_urut": 30,
+                    "icon": "zmdi zmdi-landscape",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 269,
+                            "peran_id": 1,
+                            "menu_id": 4
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 5,
+                    "label_menu": "Provinsi",
+                    "tautan": "provinsi",
+                    "parent_id": 1,
+                    "no_urut": 40,
+                    "icon": "zmdi zmdi-landscape",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 270,
+                            "peran_id": 1,
+                            "menu_id": 5
+                        }
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "label_menu": "Setting",
+            "tautan": "#",
+            "no_urut": 2,
+            "icon": "zmdi zmdi-settings",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 288,
+                    "peran_id": 1,
+                    "menu_id": 12
+                }
+            },
+            "children": [
+                {
+                    "id": 13,
+                    "label_menu": "Struktur Instansi",
+                    "tautan": "unit",
+                    "parent_id": 12,
+                    "icon": "zmdi zmdi-balance",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 295,
+                            "peran_id": 1,
+                            "menu_id": 13
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 107,
+                    "label_menu": "Detail Instansi",
+                    "tautan": "form/list/9206",
+                    "parent_id": 12,
+                    "no_urut": 1,
+                    "icon": "zmdi zmdi-balance",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 23193,
+                            "peran_id": 1,
+                            "menu_id": 107,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 6,
+                    "label_menu": "Authorisasi",
+                    "tautan": "#",
+                    "parent_id": 12,
+                    "no_urut": 1,
+                    "icon": "zmdi zmdi-accounts-list-alt",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 294,
+                            "peran_id": 1,
+                            "menu_id": 6
+                        }
+                    },
+                    "children": [
+                        {
+                            "id": 65,
+                            "label_menu": "Master Jabatan",
+                            "tautan": "form/list/68",
+                            "parent_id": 6,
+                            "no_urut": 3,
+                            "icon": "zmdi zmdi-bookmark",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 498,
+                                    "peran_id": 1,
+                                    "menu_id": 65
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 9,
+                            "label_menu": "Pegawai",
+                            "tautan": "pegawai",
+                            "parent_id": 6,
+                            "no_urut": 4,
+                            "icon": "zmdi zmdi-accounts-alt",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 276,
+                                    "peran_id": 1,
+                                    "menu_id": 9
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 10,
+                            "label_menu": "Menu",
+                            "tautan": "menu",
+                            "parent_id": 6,
+                            "no_urut": 5,
+                            "icon": "zmdi zmdi-menu",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 271,
+                                    "peran_id": 1,
+                                    "menu_id": 10
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 8,
+                            "label_menu": "Peran",
+                            "tautan": "peran",
+                            "parent_id": 6,
+                            "no_urut": 6,
+                            "icon": "zmdi zmdi-accounts",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 277,
+                                    "peran_id": 1,
+                                    "menu_id": 8
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 7,
+                            "label_menu": "Pengguna",
+                            "tautan": "pengguna",
+                            "parent_id": 6,
+                            "no_urut": 7,
+                            "icon": "zmdi zmdi-account",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 278,
+                                    "peran_id": 1,
+                                    "menu_id": 7
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 47,
+                            "label_menu": "Pegawai Instansi",
+                            "tautan": "form/list/52",
+                            "parent_id": 6,
+                            "no_urut": 100,
+                            "icon": "zmdi zmdi-assignment-account",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 428,
+                                    "peran_id": 1,
+                                    "menu_id": 47
+                                }
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 386,
+                    "label_menu": "Slider",
+                    "tautan": "slider",
+                    "parent_id": 12,
+                    "no_urut": 1,
+                    "icon": "zmdi zmdi-collection-bookmark",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 82443,
+                            "peran_id": 1,
+                            "menu_id": 386,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 38,
+                    "label_menu": "Seting Umum",
+                    "tautan": "#",
+                    "parent_id": 12,
+                    "no_urut": 4,
+                    "icon": "zmdi zmdi-settings-square",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 290,
+                            "peran_id": 1,
+                            "menu_id": 38
+                        }
+                    },
+                    "children": [
+                        {
+                            "id": 98,
+                            "label_menu": "Notifikasi",
+                            "tautan": "form/list/32767",
+                            "parent_id": 38,
+                            "no_urut": 100,
+                            "icon": "zmdi zmdi-assignment-alert",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 6226,
+                                    "peran_id": 1,
+                                    "menu_id": 98,
+                                    "dibuat_oleh": "otomatis"
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 245,
+                            "label_menu": "Pengumuman",
+                            "tautan": "form/list/1",
+                            "parent_id": 38,
+                            "no_urut": 100,
+                            "icon": "zmdi zmdi-library",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 59323,
+                                    "peran_id": 1,
+                                    "menu_id": 245,
+                                    "dibuat_oleh": "otomatis"
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 300,
+                            "label_menu": "Penanggung Jawab Aduan",
+                            "tautan": "form/list/40061",
+                            "parent_id": 38,
+                            "no_urut": 100,
+                            "icon": "zmdi zmdi-account-box-o",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 69818,
+                                    "peran_id": 1,
+                                    "menu_id": 300,
+                                    "dibuat_oleh": "otomatis"
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 24,
+                            "label_menu": "Bidang Usaha",
+                            "tautan": "bidang-usaha",
+                            "parent_id": 38,
+                            "no_urut": 300,
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 292,
+                                    "peran_id": 1,
+                                    "menu_id": 24
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 23,
+                            "label_menu": "Jenis Usaha",
+                            "tautan": "jenis-usaha",
+                            "parent_id": 38,
+                            "no_urut": 400,
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 293,
+                                    "peran_id": 1,
+                                    "menu_id": 23
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 87,
+                            "label_menu": "Grup Data",
+                            "tautan": "form/list/268",
+                            "parent_id": 38,
+                            "no_urut": 500,
+                            "icon": "zmdi zmdi-collection-item",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 714,
+                                    "peran_id": 1,
+                                    "menu_id": 87
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 36,
+                            "label_menu": "Kalender",
+                            "tautan": "kalender",
+                            "parent_id": 38,
+                            "no_urut": 600,
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 291,
+                                    "peran_id": 1,
+                                    "menu_id": 36
+                                }
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 18,
+                    "label_menu": "Seting Perizinan",
+                    "tautan": "#",
+                    "parent_id": 12,
+                    "no_urut": 8,
+                    "icon": "zmdi zmdi-check-all",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 279,
+                            "peran_id": 1,
+                            "menu_id": 18
+                        }
+                    },
+                    "children": [
+                        {
+                            "id": 17,
+                            "label_menu": "Jenis Izin",
+                            "tautan": "jenis-izin",
+                            "parent_id": 18,
+                            "no_urut": 50,
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 273,
+                                    "peran_id": 1,
+                                    "menu_id": 17
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 15,
+                            "label_menu": "Alur Proses",
+                            "tautan": "alur-proses",
+                            "parent_id": 18,
+                            "no_urut": 51,
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 272,
+                                    "peran_id": 1,
+                                    "menu_id": 15
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 16,
+                            "label_menu": "Jenis Proses",
+                            "tautan": "jenis-proses",
+                            "parent_id": 18,
+                            "no_urut": 60,
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 274,
+                                    "peran_id": 1,
+                                    "menu_id": 16
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 155,
+                            "label_menu": "Koreksi Alur",
+                            "tautan": "form/list/32893",
+                            "parent_id": 18,
+                            "no_urut": 100,
+                            "icon": "zmdi zmdi-assignment-alert",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 41160,
+                                    "peran_id": 1,
+                                    "menu_id": 155,
+                                    "dibuat_oleh": "otomatis"
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 165,
+                            "label_menu": "Daftar Nomenklatur Unit",
+                            "tautan": "form/list/32033",
+                            "parent_id": 18,
+                            "no_urut": 100,
+                            "icon": "zmdi zmdi-balance",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 45345,
+                                    "peran_id": 1,
+                                    "menu_id": 165,
+                                    "dibuat_oleh": "otomatis"
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 238,
+                            "label_menu": "Admin Nomenklatur",
+                            "tautan": "form/list/32106",
+                            "parent_id": 18,
+                            "no_urut": 100,
+                            "icon": "zmdi zmdi-balance",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 57266,
+                                    "peran_id": 1,
+                                    "menu_id": 238,
+                                    "dibuat_oleh": "otomatis"
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 353,
+                            "label_menu": "Jenis Izin Kategori",
+                            "tautan": "jenis-izin-kategori",
+                            "parent_id": 18,
+                            "no_urut": 100,
+                            "icon": "zmdi zmdi-view-list",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 78467,
+                                    "peran_id": 1,
+                                    "menu_id": 353,
+                                    "dibuat_oleh": "otomatis"
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 354,
+                            "label_menu": "Integrasi KKI",
+                            "tautan": "integrasi-kki",
+                            "parent_id": 18,
+                            "no_urut": 100,
+                            "icon": "zmdi zmdi-layers",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 78523,
+                                    "peran_id": 1,
+                                    "menu_id": 354,
+                                    "dibuat_oleh": "otomatis"
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 34,
+                            "label_menu": "Tarif Izin",
+                            "tautan": "tarif-izin",
+                            "parent_id": 18,
+                            "no_urut": 200,
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 286,
+                                    "peran_id": 1,
+                                    "menu_id": 34
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 33,
+                            "label_menu": "Penomoran",
+                            "tautan": "penomoran",
+                            "parent_id": 18,
+                            "no_urut": 300,
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 285,
+                                    "peran_id": 1,
+                                    "menu_id": 33
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 69,
+                            "label_menu": "Jenis Dokumen",
+                            "tautan": "jenis-dokumen",
+                            "parent_id": 18,
+                            "no_urut": 300,
+                            "icon": "zmdi zmdi-assignment-o",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 521,
+                                    "peran_id": 1,
+                                    "menu_id": 69
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 68,
+                            "label_menu": "Report Component",
+                            "tautan": "report-component",
+                            "parent_id": 18,
+                            "no_urut": 300,
+                            "icon": "zmdi zmdi-developer-board",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 520,
+                                    "peran_id": 1,
+                                    "menu_id": 68
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 53,
+                            "label_menu": "Notifikasi",
+                            "tautan": "notifikasi",
+                            "parent_id": 18,
+                            "no_urut": 500,
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 481,
+                                    "peran_id": 1,
+                                    "menu_id": 53
+                                }
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 26,
+                    "label_menu": "Form \u0026 Data",
+                    "tautan": "#",
+                    "parent_id": 12,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-code-setting",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 281,
+                            "peran_id": 1,
+                            "menu_id": 26
+                        }
+                    },
+                    "children": [
+                        {
+                            "id": 223,
+                            "label_menu": "Maps Layer",
+                            "tautan": "form/list/30469",
+                            "parent_id": 26,
+                            "no_urut": 1,
+                            "icon": "zmdi zmdi-google-maps",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 53819,
+                                    "peran_id": 1,
+                                    "menu_id": 223,
+                                    "dibuat_oleh": "otomatis"
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 110,
+                            "label_menu": "Aplikasi Mobile",
+                            "tautan": "form/list/11107",
+                            "parent_id": 26,
+                            "no_urut": 15,
+                            "icon": "zmdi zmdi-smartphone-download",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 25490,
+                                    "peran_id": 1,
+                                    "menu_id": 110,
+                                    "dibuat_oleh": "otomatis"
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 111,
+                            "label_menu": "Unduh Aplikasi",
+                            "tautan": "form/list/11125",
+                            "parent_id": 26,
+                            "no_urut": 16,
+                            "icon": "zmdi zmdi-case-download",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 25491,
+                                    "peran_id": 1,
+                                    "menu_id": 111,
+                                    "dibuat_oleh": "otomatis"
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 95,
+                            "label_menu": "Maping OSS",
+                            "tautan": "form/list/2190",
+                            "parent_id": 26,
+                            "no_urut": 100,
+                            "icon": "zmdi zmdi-assignment",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 4607,
+                                    "peran_id": 1,
+                                    "menu_id": 95
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 96,
+                            "label_menu": "Log OSS",
+                            "tautan": "form/list/2192",
+                            "parent_id": 26,
+                            "no_urut": 100,
+                            "icon": "zmdi zmdi-assignment",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 4608,
+                                    "peran_id": 1,
+                                    "menu_id": 96
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 102,
+                            "label_menu": "Seting Grafik",
+                            "tautan": "dashboard-setting",
+                            "parent_id": 26,
+                            "no_urut": 100,
+                            "icon": "zmdi zmdi-collection-item-1",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 20152,
+                                    "peran_id": 1,
+                                    "menu_id": 102,
+                                    "dibuat_oleh": "otomatis"
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 224,
+                            "label_menu": "Log Sinc",
+                            "tautan": "form/list/30505",
+                            "parent_id": 26,
+                            "no_urut": 100,
+                            "icon": "zmdi zmdi-assignment",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 53822,
+                                    "peran_id": 1,
+                                    "menu_id": 224,
+                                    "dibuat_oleh": "otomatis"
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 337,
+                            "label_menu": "Proses Berjalan",
+                            "tautan": "form/list/3",
+                            "parent_id": 26,
+                            "no_urut": 100,
+                            "icon": "zmdi zmdi-assignment",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 75501,
+                                    "peran_id": 1,
+                                    "menu_id": 337,
+                                    "dibuat_oleh": "otomatis"
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 14,
+                            "label_menu": "Kamus Data",
+                            "tautan": "kamus-data",
+                            "parent_id": 26,
+                            "no_urut": 300,
+                            "icon": "zmdi zmdi-collection-text",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 282,
+                                    "peran_id": 1,
+                                    "menu_id": 14
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 20,
+                            "label_menu": "Template Data",
+                            "tautan": "template-data",
+                            "parent_id": 26,
+                            "no_urut": 301,
+                            "icon": "zmdi zmdi-collection-bookmark",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 283,
+                                    "peran_id": 1,
+                                    "menu_id": 20
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 25,
+                            "label_menu": "Template Form",
+                            "tautan": "template-form",
+                            "parent_id": 26,
+                            "no_urut": 500,
+                            "icon": "zmdi zmdi-code",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 284,
+                                    "peran_id": 1,
+                                    "menu_id": 25
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 75,
+                            "label_menu": "Element Options",
+                            "tautan": "form/list/96",
+                            "parent_id": 26,
+                            "no_urut": 501,
+                            "icon": "zmdi zmdi-assignment",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 553,
+                                    "peran_id": 1,
+                                    "menu_id": 75
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 54,
+                            "label_menu": "Web Service Eksternal",
+                            "tautan": "service-eksternal",
+                            "parent_id": 26,
+                            "no_urut": 600,
+                            "icon": "zmdi zmdi-cloud-outline-alt",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 484,
+                                    "peran_id": 1,
+                                    "menu_id": 54
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 76,
+                            "label_menu": "Pengguna REST",
+                            "tautan": "pengguna-rest",
+                            "parent_id": 26,
+                            "no_urut": 601,
+                            "icon": "zmdi zmdi-codepen",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 648,
+                                    "peran_id": 1,
+                                    "menu_id": 76
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 77,
+                            "label_menu": "REST Service",
+                            "tautan": "rest-service",
+                            "parent_id": 26,
+                            "no_urut": 602,
+                            "icon": "zmdi zmdi-share",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 649,
+                                    "peran_id": 1,
+                                    "menu_id": 77
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 62,
+                            "label_menu": "Pengguna SMS Gateway",
+                            "tautan": "pengguna-gateway",
+                            "parent_id": 26,
+                            "no_urut": 800,
+                            "icon": "zmdi zmdi-inbox",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 494,
+                                    "peran_id": 1,
+                                    "menu_id": 62
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 101,
+                            "label_menu": "SMS Notifikasi",
+                            "tautan": "form/list/294",
+                            "parent_id": 26,
+                            "no_urut": 1000,
+                            "icon": "zmdi zmdi-assignment",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 17230,
+                                    "peran_id": 1,
+                                    "menu_id": 101,
+                                    "dibuat_oleh": "otomatis"
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 86,
+                            "label_menu": "Template Gambar",
+                            "tautan": "form/list/266",
+                            "parent_id": 26,
+                            "no_urut": 1001,
+                            "icon": "zmdi zmdi-book-image",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 713,
+                                    "peran_id": 1,
+                                    "menu_id": 86
+                                }
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 319,
+                    "label_menu": "SKM",
+                    "tautan": "#",
+                    "parent_id": 12,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 72794,
+                            "peran_id": 1,
+                            "menu_id": 319,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": [
+                        {
+                            "id": 320,
+                            "label_menu": "Setting Survey",
+                            "tautan": "form-assessment",
+                            "parent_id": 319,
+                            "no_urut": 1,
+                            "icon": "zmdi zmdi-assignment-check",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 72795,
+                                    "peran_id": 1,
+                                    "menu_id": 320,
+                                    "dibuat_oleh": "otomatis"
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 321,
+                            "label_menu": "Hasil Survey",
+                            "tautan": "list-periode",
+                            "parent_id": 319,
+                            "no_urut": 2,
+                            "icon": "zmdi zmdi-format-list-bulleted",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 72796,
+                                    "peran_id": 1,
+                                    "menu_id": 321,
+                                    "dibuat_oleh": "otomatis"
+                                }
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 331,
+                    "label_menu": "Setting Video Tutorial",
+                    "tautan": "video-tutorial",
+                    "parent_id": 12,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-collection-video",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 74142,
+                            "peran_id": 1,
+                            "menu_id": 331,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "label_menu": "Transaksi",
+            "tautan": "#",
+            "no_urut": 3,
+            "icon": "zmdi zmdi-money-box",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 318,
+                    "peran_id": 1,
+                    "menu_id": 21
+                }
+            },
+            "children": [
+                {
+                    "id": 109,
+                    "label_menu": "Daftar Pekerjaan",
+                    "tautan": "form/list/9883",
+                    "parent_id": 21,
+                    "no_urut": 1,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 23950,
+                            "peran_id": 1,
+                            "menu_id": 109,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 114,
+                    "label_menu": "Data Perusahaan",
+                    "tautan": "form/list/251",
+                    "parent_id": 21,
+                    "no_urut": 10,
+                    "icon": "zmdi zmdi-city",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 25552,
+                            "peran_id": 1,
+                            "menu_id": 114,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 115,
+                    "label_menu": "Daftar Perusahaan",
+                    "tautan": "form/list/11135",
+                    "parent_id": 21,
+                    "no_urut": 10,
+                    "icon": "zmdi zmdi-city",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 25553,
+                            "peran_id": 1,
+                            "menu_id": 115,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 63,
+                    "label_menu": "Registrasi Pemohon",
+                    "tautan": "pemohon-register",
+                    "parent_id": 21,
+                    "no_urut": 40,
+                    "icon": "zmdi zmdi-assignment-account",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 495,
+                            "peran_id": 1,
+                            "menu_id": 63
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 64,
+                    "label_menu": "Tanggapan Permasalahan",
+                    "tautan": "form/list/40034",
+                    "parent_id": 21,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment-o",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 502,
+                            "peran_id": 1,
+                            "menu_id": 64
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 66,
+                    "label_menu": "Daftar Pemohon",
+                    "tautan": "pemohon",
+                    "parent_id": 21,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-accounts-add",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 513,
+                            "peran_id": 1,
+                            "menu_id": 66
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 94,
+                    "label_menu": "Daftar Izin",
+                    "tautan": "daftar-izin",
+                    "parent_id": 21,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-collection-text",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 2978,
+                            "peran_id": 1,
+                            "menu_id": 94
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 84,
+                    "label_menu": "Daftar Perusahaan",
+                    "tautan": "form/list/251",
+                    "parent_id": 21,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-balance",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 2979,
+                            "peran_id": 1,
+                            "menu_id": 84
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 108,
+                    "label_menu": "Smart Card",
+                    "tautan": "form/list/298",
+                    "parent_id": 21,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-card",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 23551,
+                            "peran_id": 1,
+                            "menu_id": 108,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 118,
+                    "label_menu": "Daftar Petugas",
+                    "tautan": "form/list/13392",
+                    "parent_id": 21,
+                    "no_urut": 100,
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 27492,
+                            "peran_id": 1,
+                            "menu_id": 118,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 225,
+                    "label_menu": "Proses Izin Berusaha",
+                    "tautan": "proses-nib",
+                    "parent_id": 21,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-storage",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 53840,
+                            "peran_id": 1,
+                            "menu_id": 225,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 226,
+                    "label_menu": "Pengawasan",
+                    "tautan": "form/list/30658",
+                    "parent_id": 21,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-search",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 53979,
+                            "peran_id": 1,
+                            "menu_id": 226,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 240,
+                    "label_menu": "Permohonan Ditolak",
+                    "tautan": "daftar-izin-ditolak",
+                    "parent_id": 21,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment-alert",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 57921,
+                            "peran_id": 1,
+                            "menu_id": 240,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 339,
+                    "label_menu": "Alter Data Pemohon",
+                    "tautan": "pemohon/alter",
+                    "parent_id": 21,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-accounts-alt",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 75957,
+                            "peran_id": 1,
+                            "menu_id": 339,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 387,
+                    "label_menu": "Tanda Tangan Elektronik",
+                    "tautan": "signature-tte",
+                    "parent_id": 21,
+                    "no_urut": 140,
+                    "icon": "zmdi zmdi-assignment-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 82444,
+                            "peran_id": 1,
+                            "menu_id": 387,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 19,
+                    "label_menu": "Permohonan Izin",
+                    "tautan": "permohonan-izin",
+                    "parent_id": 21,
+                    "no_urut": 199,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 275,
+                            "peran_id": 1,
+                            "menu_id": 19
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 22,
+                    "label_menu": "Proses Permohonan",
+                    "tautan": "proses-pengajuan",
+                    "parent_id": 21,
+                    "no_urut": 200,
+                    "icon": "zmdi zmdi-view-list",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 280,
+                            "peran_id": 1,
+                            "menu_id": 22
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 74,
+                    "label_menu": "Contoh Report Jasper",
+                    "tautan": "form/report/91",
+                    "parent_id": 21,
+                    "no_urut": 600,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 552,
+                            "peran_id": 1,
+                            "menu_id": 74
+                        }
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 492,
+            "label_menu": "Log Aplikasi",
+            "tautan": "#",
+            "no_urut": 10,
+            "icon": "zmdi zmdi-collection-text",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 89768,
+                    "peran_id": 1,
+                    "menu_id": 492,
+                    "dibuat_oleh": "otomatis"
+                }
+            },
+            "children": [
+                {
+                    "id": 493,
+                    "label_menu": "Log Email",
+                    "tautan": "log-sender-email",
+                    "parent_id": 492,
+                    "icon": "zmdi zmdi-email-open",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 89769,
+                            "peran_id": 1,
+                            "menu_id": 493,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 494,
+                    "label_menu": "Log TTE",
+                    "tautan": "log-tte",
+                    "parent_id": 492,
+                    "icon": "zmdi zmdi-border-color",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 89770,
+                            "peran_id": 1,
+                            "menu_id": 494,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 495,
+                    "label_menu": "Log Validasi",
+                    "tautan": "form/list/52051",
+                    "parent_id": 492,
+                    "icon": "zmdi zmdi-accounts-list",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 89771,
+                            "peran_id": 1,
+                            "menu_id": 495,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 497,
+                    "label_menu": "Log SMS",
+                    "tautan": "log-sms",
+                    "parent_id": 492,
+                    "no_urut": 1,
+                    "icon": "zmdi zmdi-comments",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 90415,
+                            "peran_id": 1,
+                            "menu_id": 497,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "label_menu": "Bantuan Teknis",
+            "tautan": "#",
+            "no_urut": 10,
+            "icon": "zmdi zmdi-account-box-phone",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 31064,
+                    "peran_id": 1,
+                    "menu_id": 133,
+                    "dibuat_oleh": "otomatis"
+                }
+            },
+            "children": [
+                {
+                    "id": 134,
+                    "label_menu": "Daftar Pekerjaan",
+                    "tautan": "form/list/17500",
+                    "parent_id": 133,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 31775,
+                            "peran_id": 1,
+                            "menu_id": 134,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 329,
+                    "label_menu": "Aduan Kategori",
+                    "tautan": "aduan-kategori-list",
+                    "parent_id": 133,
+                    "no_urut": 4,
+                    "icon": "zmdi zmdi-view-list",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 73939,
+                            "peran_id": 1,
+                            "menu_id": 329,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 298,
+                    "label_menu": "Lapor Aduan",
+                    "tautan": "aduan",
+                    "parent_id": 133,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-account-box-phone",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 69816,
+                            "peran_id": 1,
+                            "menu_id": 298,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 299,
+                    "label_menu": "Penaganan Aduan",
+                    "tautan": "penanganan-aduan",
+                    "parent_id": 133,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 69817,
+                            "peran_id": 1,
+                            "menu_id": 299,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 51,
+            "label_menu": "Laporan \u0026 Dokumen Cetak",
+            "tautan": "form/report/59",
+            "no_urut": 100,
+            "icon": "zmdi zmdi-file-text",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 478,
+                    "peran_id": 1,
+                    "menu_id": 51
+                }
+            },
+            "children": [
+                {
+                    "id": 404,
+                    "label_menu": "Laporan Sektor Kebudayaan Provinsi Aceh",
+                    "tautan": "form/report/45932",
+                    "parent_id": 51,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 84232,
+                            "peran_id": 1,
+                            "menu_id": 404,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 403,
+                    "label_menu": "Laporan Sektor PORA",
+                    "tautan": "form/report/45933",
+                    "parent_id": 51,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 84231,
+                            "peran_id": 1,
+                            "menu_id": 403,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 413,
+                    "label_menu": "Laporan Sektor KesehatanProvinsi Aceh",
+                    "tautan": "form/report/29506",
+                    "parent_id": 51,
+                    "icon": "zmdi zmdi-assignment-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 84241,
+                            "peran_id": 1,
+                            "menu_id": 413,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 412,
+                    "label_menu": "Laporan Sektor Perikanan Provinsi Aceh",
+                    "tautan": "form/report/29685",
+                    "parent_id": 51,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 84240,
+                            "peran_id": 1,
+                            "menu_id": 412,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 411,
+                    "label_menu": "Laporan Sektor ESDM Provinsi Aceh",
+                    "tautan": "form/report/29697",
+                    "parent_id": 51,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 84239,
+                            "peran_id": 1,
+                            "menu_id": 411,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 410,
+                    "label_menu": "Laporan Sektor LHK Provinsi Aceh",
+                    "tautan": "form/report/29699",
+                    "parent_id": 51,
+                    "icon": "zmdi zmdi-assignment-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 84238,
+                            "peran_id": 1,
+                            "menu_id": 410,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 409,
+                    "label_menu": "Laporan Sektor PUPR Provinsi Aceh",
+                    "tautan": "form/report/29701",
+                    "parent_id": 51,
+                    "icon": "zmdi zmdi-assignment-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 84237,
+                            "peran_id": 1,
+                            "menu_id": 409,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 408,
+                    "label_menu": "Laporan Sektor Sosial Provinsi Aceh",
+                    "tautan": "form/report/29702",
+                    "parent_id": 51,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 84236,
+                            "peran_id": 1,
+                            "menu_id": 408,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 407,
+                    "label_menu": "Laporan Sektor Perkebunan Provinsi Aceh",
+                    "tautan": "form/report/29744",
+                    "parent_id": 51,
+                    "icon": "zmdi zmdi-assignment-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 84235,
+                            "peran_id": 1,
+                            "menu_id": 407,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 406,
+                    "label_menu": "Laporan Sektor Kesbangpol Provinsi Aceh",
+                    "tautan": "form/report/29745",
+                    "parent_id": 51,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 84234,
+                            "peran_id": 1,
+                            "menu_id": 406,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 405,
+                    "label_menu": "Laporan Sektor Pendidikan Provinsi Aceh",
+                    "tautan": "form/report/29696",
+                    "parent_id": 51,
+                    "icon": "zmdi zmdi-assignment-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 84233,
+                            "peran_id": 1,
+                            "menu_id": 405,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 341,
+                    "label_menu": "Rekap Izin Selesai Kabupaten Pelalawan",
+                    "tautan": "form/report/23071",
+                    "parent_id": 51,
+                    "no_urut": 1,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 76538,
+                            "peran_id": 1,
+                            "menu_id": 341,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 306,
+                    "label_menu": "Rekapan Izin Kab. PALI",
+                    "tautan": "form/report/24217",
+                    "parent_id": 51,
+                    "no_urut": 1,
+                    "icon": "zmdi zmdi-archive",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 70228,
+                            "peran_id": 1,
+                            "menu_id": 306,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 259,
+                    "label_menu": "Rekap Izin AK.I ( Kartu Pencari Kerja )",
+                    "tautan": "form/report/30961",
+                    "parent_id": 51,
+                    "no_urut": 1,
+                    "icon": "zmdi zmdi-book",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 66411,
+                            "peran_id": 1,
+                            "menu_id": 259,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 260,
+                    "label_menu": "Rekap Izin Kab. Dharmasraya ",
+                    "tautan": "form/report/35612",
+                    "parent_id": 51,
+                    "no_urut": 5,
+                    "icon": "zmdi zmdi-book",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 66827,
+                            "peran_id": 1,
+                            "menu_id": 260,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 275,
+                    "label_menu": "Rekap Izin Kab. Tulang Bawang",
+                    "tautan": "form/report/37618",
+                    "parent_id": 51,
+                    "no_urut": 5,
+                    "icon": "zmdi zmdi-archive",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 67894,
+                            "peran_id": 1,
+                            "menu_id": 275,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 316,
+                    "label_menu": "Rekap Izin Bidang Kesehatan Kab. HSU",
+                    "tautan": "form/report/41804",
+                    "parent_id": 51,
+                    "no_urut": 6,
+                    "icon": "zmdi zmdi-archive",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 71748,
+                            "peran_id": 1,
+                            "menu_id": 316,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 285,
+                    "label_menu": "Rekap percobaan Integer",
+                    "tautan": "form/report/38773",
+                    "parent_id": 51,
+                    "no_urut": 6,
+                    "icon": "zmdi zmdi-album",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 68568,
+                            "peran_id": 1,
+                            "menu_id": 285,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 132,
+                    "label_menu": "Laporan Rekap Izin",
+                    "tautan": "form/report/16714",
+                    "parent_id": 51,
+                    "no_urut": 9,
+                    "icon": "zmdi zmdi-card-travel",
+                    "instansi_id": 1511,
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 30895,
+                            "peran_id": 1,
+                            "menu_id": 132,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 293,
+                    "label_menu": "PND_Rekap_Data1",
+                    "tautan": "form/report/39914",
+                    "parent_id": 51,
+                    "no_urut": 10,
+                    "icon": "zmdi zmdi-archive",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 69686,
+                            "peran_id": 1,
+                            "menu_id": 293,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 399,
+                    "label_menu": "Rekap Laporan Kesehatan - Kab Kubu Raya",
+                    "tautan": "form/report/49750",
+                    "parent_id": 51,
+                    "no_urut": 10,
+                    "icon": "zmdi zmdi-layers",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 83803,
+                            "peran_id": 1,
+                            "menu_id": 399,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 294,
+                    "label_menu": "PND_Rekap_Data2",
+                    "tautan": "form/report/39917",
+                    "parent_id": 51,
+                    "no_urut": 11,
+                    "icon": "zmdi zmdi-assignment-returned",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 69687,
+                            "peran_id": 1,
+                            "menu_id": 294,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 206,
+                    "label_menu": "Sektor Sosial",
+                    "tautan": "form/report/29702",
+                    "parent_id": 51,
+                    "no_urut": 11,
+                    "icon": "zmdi zmdi-assignment-account",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 52454,
+                            "peran_id": 1,
+                            "menu_id": 206,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 310,
+                    "label_menu": "Rekap Izin (Langsa Kota Kab)",
+                    "tautan": "form/report/41044",
+                    "parent_id": 51,
+                    "no_urut": 12,
+                    "icon": "zmdi zmdi-book",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 70907,
+                            "peran_id": 1,
+                            "menu_id": 310,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 207,
+                    "label_menu": "Sektor PUPR",
+                    "tautan": "form/report/29701",
+                    "parent_id": 51,
+                    "no_urut": 12,
+                    "icon": "zmdi zmdi-assignment-account",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 52455,
+                            "peran_id": 1,
+                            "menu_id": 207,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 208,
+                    "label_menu": "Sektor LHK",
+                    "tautan": "form/report/29699",
+                    "parent_id": 51,
+                    "no_urut": 13,
+                    "icon": "zmdi zmdi-assignment-account",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 52456,
+                            "peran_id": 1,
+                            "menu_id": 208,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 209,
+                    "label_menu": "Sektor ESDM",
+                    "tautan": "form/report/29697",
+                    "parent_id": 51,
+                    "no_urut": 14,
+                    "icon": "zmdi zmdi-assignment-account",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 52457,
+                            "peran_id": 1,
+                            "menu_id": 209,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 498,
+                    "label_menu": "Rekap Izin - Kab Lobar",
+                    "tautan": "form/report/43261",
+                    "parent_id": 51,
+                    "no_urut": 15,
+                    "icon": "zmdi zmdi-archive",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 90774,
+                            "peran_id": 1,
+                            "menu_id": 498,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 210,
+                    "label_menu": "Sektor Pendidikan",
+                    "tautan": "form/report/29696",
+                    "parent_id": 51,
+                    "no_urut": 15,
+                    "icon": "zmdi zmdi-assignment-returned",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 52458,
+                            "peran_id": 1,
+                            "menu_id": 210,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 211,
+                    "label_menu": "Sektor Perikanan",
+                    "tautan": "form/report/29685",
+                    "parent_id": 51,
+                    "no_urut": 16,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 52459,
+                            "peran_id": 1,
+                            "menu_id": 211,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 212,
+                    "label_menu": "Sektor Perhubungan",
+                    "tautan": "form/report/29583",
+                    "parent_id": 51,
+                    "no_urut": 17,
+                    "icon": "zmdi zmdi-assignment-returned",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 52460,
+                            "peran_id": 1,
+                            "menu_id": 212,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 323,
+                    "label_menu": "Rekap Bimtek 5",
+                    "tautan": "form/report/43376",
+                    "parent_id": 51,
+                    "no_urut": 18,
+                    "icon": "zmdi zmdi-assignment-alert",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 73147,
+                            "peran_id": 1,
+                            "menu_id": 323,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 213,
+                    "label_menu": "Sektor kesehatan",
+                    "tautan": "form/report/29506",
+                    "parent_id": 51,
+                    "no_urut": 18,
+                    "icon": "zmdi zmdi-assignment-alert",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 52461,
+                            "peran_id": 1,
+                            "menu_id": 213,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 214,
+                    "label_menu": "izin Selesai Prov Aceh",
+                    "tautan": "form/report/23704",
+                    "parent_id": 51,
+                    "no_urut": 19,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 52462,
+                            "peran_id": 1,
+                            "menu_id": 214,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 215,
+                    "label_menu": "Sektor Perkebunan",
+                    "tautan": "form/report/29744",
+                    "parent_id": 51,
+                    "no_urut": 20,
+                    "icon": "zmdi zmdi-assignment-account",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 52559,
+                            "peran_id": 1,
+                            "menu_id": 215,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 216,
+                    "label_menu": "Sektor kesbangpol",
+                    "tautan": "form/report/29745",
+                    "parent_id": 51,
+                    "no_urut": 21,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 52560,
+                            "peran_id": 1,
+                            "menu_id": 216,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 217,
+                    "label_menu": "Report Izin Berdasarkan Tanggal Sign",
+                    "tautan": "form/report/29836",
+                    "parent_id": 51,
+                    "no_urut": 22,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 52885,
+                            "peran_id": 1,
+                            "menu_id": 217,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 220,
+                    "label_menu": "Rekap laporan Kabupaten Bangka",
+                    "tautan": "form/report/30032",
+                    "parent_id": 51,
+                    "no_urut": 25,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 53121,
+                            "peran_id": 1,
+                            "menu_id": 220,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 222,
+                    "label_menu": "Rekap Izin Terbit Kab.Pandeglang",
+                    "tautan": "form/report/30229",
+                    "parent_id": 51,
+                    "no_urut": 25,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 53637,
+                            "peran_id": 1,
+                            "menu_id": 222,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 496,
+                    "label_menu": "Rekap Permohonan Izin SiCANTIK Kabupaten Mesuji",
+                    "tautan": "form/report/52454",
+                    "parent_id": 51,
+                    "no_urut": 27,
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 90142,
+                            "peran_id": 1,
+                            "menu_id": 496,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 140,
+                    "label_menu": "Laporan Izin per Kab/Kota",
+                    "tautan": "form/report-grid/17912",
+                    "parent_id": 51,
+                    "no_urut": 45,
+                    "icon": "zmdi zmdi-assignment-o",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 32675,
+                            "peran_id": 1,
+                            "menu_id": 140,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 280,
+                    "label_menu": "Rekap Izin Reklame (Baubau)",
+                    "tautan": "form/report/36670",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 67983,
+                            "peran_id": 1,
+                            "menu_id": 280,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 55,
+                    "label_menu": "Laporan Desa",
+                    "tautan": "form/report/30",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 485,
+                            "peran_id": 1,
+                            "menu_id": 55
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 71,
+                    "label_menu": "Detail Jenis Izin Kota Serang",
+                    "tautan": "form/report/78",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-case",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 539,
+                            "peran_id": 1,
+                            "menu_id": 71
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 72,
+                    "label_menu": "Izin dihapus Kota Serang",
+                    "tautan": "form/report-grid/46330",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment-o",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 540,
+                            "peran_id": 1,
+                            "menu_id": 72
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 73,
+                    "label_menu": "Permohonan Selesai",
+                    "tautan": "form/report-grid/81",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment-o",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 653,
+                            "peran_id": 1,
+                            "menu_id": 73
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 78,
+                    "label_menu": "Daftar Izin Kecamatan",
+                    "tautan": "form/report-grid/165",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 654,
+                            "peran_id": 1,
+                            "menu_id": 78
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 79,
+                    "label_menu": "Rekap Izin Kecamatan",
+                    "tautan": "form/report-grid/166",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 655,
+                            "peran_id": 1,
+                            "menu_id": 79
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 80,
+                    "label_menu": "Rekap Permohonan Kecamatan",
+                    "tautan": "form/report/167",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 656,
+                            "peran_id": 1,
+                            "menu_id": 80
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 117,
+                    "label_menu": "Laporan Kecamatan - contoh",
+                    "tautan": "form/report/13384",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-balance",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 27491,
+                            "peran_id": 1,
+                            "menu_id": 117,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 218,
+                    "label_menu": "Rekap laporan TJB",
+                    "tautan": "form/report/28536",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment-returned",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 52917,
+                            "peran_id": 1,
+                            "menu_id": 218,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 235,
+                    "label_menu": "Rekap Izin Kesehatan",
+                    "tautan": "form/report/31982",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 56833,
+                            "peran_id": 1,
+                            "menu_id": 235,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 239,
+                    "label_menu": "Rekapitulasi Perizinan dan Non Perizinan",
+                    "tautan": "form/report/32186",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 57397,
+                            "peran_id": 1,
+                            "menu_id": 239,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 242,
+                    "label_menu": "Rincian Penetapan ",
+                    "tautan": "form/report/32889",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 59262,
+                            "peran_id": 1,
+                            "menu_id": 242,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 243,
+                    "label_menu": "Rincian Pengambilan",
+                    "tautan": "form/report/32890",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 59263,
+                            "peran_id": 1,
+                            "menu_id": 243,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 244,
+                    "label_menu": "Rincian Permohonan - Purwakarta",
+                    "tautan": "form/report/28995",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 59285,
+                            "peran_id": 1,
+                            "menu_id": 244,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 248,
+                    "label_menu": "Rekap Laporan Kabupaten Gianyar",
+                    "tautan": "form/report/31053",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 59640,
+                            "peran_id": 1,
+                            "menu_id": 248,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 251,
+                    "label_menu": "Repot Izin Kabupaten Paneglang",
+                    "tautan": "form/report/33886",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment-alert",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 62210,
+                            "peran_id": 1,
+                            "menu_id": 251,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 252,
+                    "label_menu": "Laporan Izin Kesehatan Banda Aceh ",
+                    "tautan": "form/report/33917",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 64045,
+                            "peran_id": 1,
+                            "menu_id": 252,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 254,
+                    "label_menu": "Rekap Laporan Izin Per Kecamatan - Muara Enim",
+                    "tautan": "form/report/34644",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 64838,
+                            "peran_id": 1,
+                            "menu_id": 254,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 256,
+                    "label_menu": "Laporan Rekap Permohonan Gorontalo",
+                    "tautan": "form/report/35049",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 65340,
+                            "peran_id": 1,
+                            "menu_id": 256,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 257,
+                    "label_menu": "Realisasi Penerimaan Izin",
+                    "tautan": "form/report/35226",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 66015,
+                            "peran_id": 1,
+                            "menu_id": 257,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 263,
+                    "label_menu": "Rekap 3326",
+                    "tautan": "form/report/36636",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment-account",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 66998,
+                            "peran_id": 1,
+                            "menu_id": 263,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 265,
+                    "label_menu": "Rekapitulasi Izin Mendirikan Bangunan",
+                    "tautan": "form/report/26122",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 67213,
+                            "peran_id": 1,
+                            "menu_id": 265,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 266,
+                    "label_menu": "Rekapitulasi Izin Tenaga Kesehatan",
+                    "tautan": "form /report/36625",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 67214,
+                            "peran_id": 1,
+                            "menu_id": 266,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 271,
+                    "label_menu": "LAPORAN PROSES IZIN",
+                    "tautan": "form/report/33735",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 67629,
+                            "peran_id": 1,
+                            "menu_id": 271,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 272,
+                    "label_menu": "Rekap Data Perizinan",
+                    "tautan": "form/report/35538",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 67721,
+                            "peran_id": 1,
+                            "menu_id": 272,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 274,
+                    "label_menu": "Laporan Monitoring",
+                    "tautan": "form/report/37462",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 67861,
+                            "peran_id": 1,
+                            "menu_id": 274,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 277,
+                    "label_menu": "Rekap Izin Nakes",
+                    "tautan": "form/report/37719",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 67978,
+                            "peran_id": 1,
+                            "menu_id": 277,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 278,
+                    "label_menu": "Rekap IMB (Baubau)",
+                    "tautan": "form/report/26122",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 67981,
+                            "peran_id": 1,
+                            "menu_id": 278,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 279,
+                    "label_menu": "Rekap SITU-MB",
+                    "tautan": "form/report/36663",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 67982,
+                            "peran_id": 1,
+                            "menu_id": 279,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 281,
+                    "label_menu": "Rekap Izin Apotek (Baubau)",
+                    "tautan": "form/report/36671",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 67984,
+                            "peran_id": 1,
+                            "menu_id": 281,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 283,
+                    "label_menu": "Laporan Izin Mendirikan Bangunan",
+                    "tautan": "form/report/29014",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 68250,
+                            "peran_id": 1,
+                            "menu_id": 283,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 284,
+                    "label_menu": "Rekap SIA BvD",
+                    "tautan": "form/report/38165",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 68253,
+                            "peran_id": 1,
+                            "menu_id": 284,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 287,
+                    "label_menu": "Status Izin",
+                    "tautan": "instansi",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-archive",
+                    "instansi_id": 1449,
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 68890,
+                            "peran_id": 1,
+                            "menu_id": 287,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 288,
+                    "label_menu": "Daftar Pemohon Kota Serang",
+                    "tautan": "form/report-grid/41573",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment-account",
+                    "instansi_id": 1449,
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 68892,
+                            "peran_id": 1,
+                            "menu_id": 288,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 290,
+                    "label_menu": "Rekap All",
+                    "tautan": "form/report/39304",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 69357,
+                            "peran_id": 1,
+                            "menu_id": 290,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 292,
+                    "label_menu": "Laporan Izin Selesai Penetapan",
+                    "tautan": "form/report/39863",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment-alert",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 69594,
+                            "peran_id": 1,
+                            "menu_id": 292,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 301,
+                    "label_menu": "Rekap SPP-IRT",
+                    "tautan": "form/report/39721",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 69841,
+                            "peran_id": 1,
+                            "menu_id": 301,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 302,
+                    "label_menu": "Rekap IUJK",
+                    "tautan": "form/report/39725",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 69842,
+                            "peran_id": 1,
+                            "menu_id": 302,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 303,
+                    "label_menu": "Rekap TDUP",
+                    "tautan": "form/report/39726",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 69843,
+                            "peran_id": 1,
+                            "menu_id": 303,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 304,
+                    "label_menu": "Rekap SatPendik",
+                    "tautan": "form/report/39727",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 69844,
+                            "peran_id": 1,
+                            "menu_id": 304,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 305,
+                    "label_menu": "Rekap SarKes",
+                    "tautan": "form/report/39728",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 69845,
+                            "peran_id": 1,
+                            "menu_id": 305,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 307,
+                    "label_menu": "Laporan Kab.Boalemo",
+                    "tautan": "form/report/40457",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment-alert",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 70288,
+                            "peran_id": 1,
+                            "menu_id": 307,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 308,
+                    "label_menu": "Rekap Izin / Non Izin",
+                    "tautan": "form/report/40636",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 70414,
+                            "peran_id": 1,
+                            "menu_id": 308,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 309,
+                    "label_menu": "Rekap Dokumen Izin Gorontalo",
+                    "tautan": "form/report/40678",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 70417,
+                            "peran_id": 1,
+                            "menu_id": 309,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 317,
+                    "label_menu": "siPopiCantik",
+                    "tautan": "form/report/42261",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 72229,
+                            "peran_id": 1,
+                            "menu_id": 317,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 322,
+                    "label_menu": "Rekap Izin Karangasem",
+                    "tautan": "form/report/43353",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 73119,
+                            "peran_id": 1,
+                            "menu_id": 322,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 327,
+                    "label_menu": "Rekap Kesehatan Kabupaten Kapuas",
+                    "tautan": "form/report/43543",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 73558,
+                            "peran_id": 1,
+                            "menu_id": 327,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 328,
+                    "label_menu": "Laporan Perizinan Kota Tidore",
+                    "tautan": "form/report/43879",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 73868,
+                            "peran_id": 1,
+                            "menu_id": 328,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 330,
+                    "label_menu": "Rekap Izin Profesi",
+                    "tautan": "form/report/44020",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 74005,
+                            "peran_id": 1,
+                            "menu_id": 330,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 333,
+                    "label_menu": "Laporan Penetapan Izin - Tidore",
+                    "tautan": "form/report/44149",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 74549,
+                            "peran_id": 1,
+                            "menu_id": 333,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 336,
+                    "label_menu": "Dashboard Per Instansi",
+                    "tautan": "form/report-grid/44957",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-format-align-left",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 75491,
+                            "peran_id": 1,
+                            "menu_id": 336,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 346,
+                    "label_menu": "Rekap 3326",
+                    "tautan": "form/report/36636",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 78003,
+                            "peran_id": 1,
+                            "menu_id": 346,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 361,
+                    "label_menu": "Rekap Izin Kabupaten Kepulauan Mentawai",
+                    "tautan": "form/report/48281",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 80056,
+                            "peran_id": 1,
+                            "menu_id": 361,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 366,
+                    "label_menu": "Sektor Pekerjaan Umum (N)",
+                    "tautan": "form/report/48374",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-balance-wallet",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 80226,
+                            "peran_id": 1,
+                            "menu_id": 366,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 368,
+                    "label_menu": "Rekap izin Kabuapten Ketapang",
+                    "tautan": "form/report/48581",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 80348,
+                            "peran_id": 1,
+                            "menu_id": 368,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 421,
+                    "label_menu": "Rekap Izin Keseharab Kab.HSU",
+                    "tautan": "form/report/41804",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 86398,
+                            "peran_id": 1,
+                            "menu_id": 421,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 454,
+                    "label_menu": "Rekap Permohonan Provinsi Kalbar",
+                    "tautan": "form/report/51616",
+                    "parent_id": 51,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 87466,
+                            "peran_id": 1,
+                            "menu_id": 454,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 340,
+                    "label_menu": "Laporan DPMPTSP KKR",
+                    "tautan": "form/report/45270",
+                    "parent_id": 51,
+                    "no_urut": 101,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 75988,
+                            "peran_id": 1,
+                            "menu_id": 340,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 338,
+                    "label_menu": "Dashboard Per Jenis Izin",
+                    "tautan": "form/report-grid/45021",
+                    "parent_id": 51,
+                    "no_urut": 101,
+                    "icon": "zmdi zmdi-format-align-left",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 75559,
+                            "peran_id": 1,
+                            "menu_id": 338,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 334,
+                    "label_menu": "Rekap Izin Kab. Lombok Barat",
+                    "tautan": "form/report/43261",
+                    "parent_id": 51,
+                    "no_urut": 103,
+                    "icon": "zmdi zmdi-archive",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 75115,
+                            "peran_id": 1,
+                            "menu_id": 334,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 372,
+                    "label_menu": "Rekap Aceh Barat Daya ",
+                    "tautan": "form/report/48523",
+                    "parent_id": 51,
+                    "no_urut": 104,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 81222,
+                            "peran_id": 1,
+                            "menu_id": 372,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 335,
+                    "label_menu": "Rekap Izin Kab. PBG",
+                    "tautan": "form/report/38170",
+                    "parent_id": 51,
+                    "no_urut": 105,
+                    "icon": "zmdi zmdi-book",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 75245,
+                            "peran_id": 1,
+                            "menu_id": 335,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 229,
+                    "label_menu": "Rekap Izin By Name By Address (Ditetapkan)",
+                    "tautan": "form/report-grid/29869",
+                    "parent_id": 51,
+                    "no_urut": 108,
+                    "icon": "zmdi zmdi-assignment-o",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 55099,
+                            "peran_id": 1,
+                            "menu_id": 229,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 501,
+                    "label_menu": "Rekap Permohonan Ditolak Aceh Barat",
+                    "tautan": "form/report/43102",
+                    "parent_id": 51,
+                    "no_urut": 110,
+                    "icon": "zmdi zmdi-assignment-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 92696,
+                            "peran_id": 1,
+                            "menu_id": 501,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 356,
+                    "label_menu": "Rekap Izin SIUP dan TDP Banggai laut 2",
+                    "tautan": "form/report/25270",
+                    "parent_id": 51,
+                    "no_urut": 110,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 78562,
+                            "peran_id": 1,
+                            "menu_id": 356,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 371,
+                    "label_menu": "Rekap Bimtek Demo Bekasi",
+                    "tautan": "form/report/48767",
+                    "parent_id": 51,
+                    "no_urut": 110,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 81213,
+                            "peran_id": 1,
+                            "menu_id": 371,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 181,
+                    "label_menu": "Demo - Rekap Jenis Izin",
+                    "tautan": "form/report/28548",
+                    "parent_id": 51,
+                    "no_urut": 110,
+                    "icon": "zmdi zmdi-chart",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 50698,
+                            "peran_id": 1,
+                            "menu_id": 181,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 359,
+                    "label_menu": "Rekap Jenis Izin Banggai Laut",
+                    "tautan": "form/report/47472",
+                    "parent_id": 51,
+                    "no_urut": 111,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 78751,
+                            "peran_id": 1,
+                            "menu_id": 359,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 141,
+                    "label_menu": "Rekap Izin Per Kabupaten/Kota",
+                    "tautan": "form/report-grid/17912",
+                    "parent_id": 51,
+                    "no_urut": 111,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 32678,
+                            "peran_id": 1,
+                            "menu_id": 141,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 370,
+                    "label_menu": "Rekap Izin Kesehatan Kab.Poso",
+                    "tautan": "form/report/48756",
+                    "parent_id": 51,
+                    "no_urut": 111,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 81211,
+                            "peran_id": 1,
+                            "menu_id": 370,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 326,
+                    "label_menu": "Rekap Rekomtek Yang Selesai",
+                    "tautan": "form/report/43456",
+                    "parent_id": 51,
+                    "no_urut": 111,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 73426,
+                            "peran_id": 1,
+                            "menu_id": 326,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 490,
+                    "label_menu": "Laporan Izin Minerba",
+                    "tautan": "Form/report/52634",
+                    "parent_id": 51,
+                    "no_urut": 111,
+                    "icon": "zmdi zmdi-assignment-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 88706,
+                            "peran_id": 1,
+                            "menu_id": 490,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 414,
+                    "label_menu": "Rekap Izin Reklame HST",
+                    "tautan": "form/report/49839",
+                    "parent_id": 51,
+                    "no_urut": 111,
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 84333,
+                            "peran_id": 1,
+                            "menu_id": 414,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 401,
+                    "label_menu": "Lapor KPS",
+                    "tautan": "form/report/45941",
+                    "parent_id": 51,
+                    "no_urut": 111,
+                    "icon": "zmdi zmdi-assignment-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 84229,
+                            "peran_id": 1,
+                            "menu_id": 401,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 357,
+                    "label_menu": "Rekap Izin Kesehatan (Banggai laut)",
+                    "tautan": "form/report/24863",
+                    "parent_id": 51,
+                    "no_urut": 111,
+                    "icon": "zmdi zmdi-assignment-returned",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 78601,
+                            "peran_id": 1,
+                            "menu_id": 357,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 228,
+                    "label_menu": "Rekap Izin Praktek BVD",
+                    "tautan": "form/report/18557",
+                    "parent_id": 51,
+                    "no_urut": 111,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 54137,
+                            "peran_id": 1,
+                            "menu_id": 228,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 231,
+                    "label_menu": "Laporan Jenis Izin Asahan",
+                    "tautan": "form/report-grid/16083",
+                    "parent_id": 51,
+                    "no_urut": 112,
+                    "icon": "zmdi zmdi-assignment-o",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 55288,
+                            "peran_id": 1,
+                            "menu_id": 231,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 268,
+                    "label_menu": "Rekap IMR BvD",
+                    "tautan": "form/report/30693",
+                    "parent_id": 51,
+                    "no_urut": 112,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 67273,
+                            "peran_id": 1,
+                            "menu_id": 268,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 269,
+                    "label_menu": "Rekap SIUP/IUJK BvD",
+                    "tautan": "form/report/36813",
+                    "parent_id": 51,
+                    "no_urut": 113,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 67328,
+                            "peran_id": 1,
+                            "menu_id": 269,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 270,
+                    "label_menu": "Rekap IMB BvD",
+                    "tautan": "form/report/36820",
+                    "parent_id": 51,
+                    "no_urut": 114,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 67329,
+                            "peran_id": 1,
+                            "menu_id": 270,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 402,
+                    "label_menu": "Laporan Sektor Perhubungan Provinsi Aceh",
+                    "tautan": "form/report/29583",
+                    "parent_id": 51,
+                    "no_urut": 115,
+                    "icon": "zmdi zmdi-assignment-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 84230,
+                            "peran_id": 1,
+                            "menu_id": 402,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 358,
+                    "label_menu": "Draft SIUP - Banggai Laut",
+                    "tautan": "form/report/47449",
+                    "parent_id": 51,
+                    "no_urut": 115,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 78644,
+                            "peran_id": 1,
+                            "menu_id": 358,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 255,
+                    "label_menu": "Rekap Ijin Kabupaten Biak Numfor",
+                    "tautan": "form/report/34764",
+                    "parent_id": 51,
+                    "no_urut": 119,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 65051,
+                            "peran_id": 1,
+                            "menu_id": 255,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 273,
+                    "label_menu": "Rekap retribusi Permohonan_izin Selesai - Pandeglang (Draft)",
+                    "tautan": "form/report/37332",
+                    "parent_id": 51,
+                    "no_urut": 120,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 67827,
+                            "peran_id": 1,
+                            "menu_id": 273,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 171,
+                    "label_menu": "Demo - Rekap Izin Selesai",
+                    "tautan": "form/report-grid/27348",
+                    "parent_id": 51,
+                    "no_urut": 120,
+                    "icon": "zmdi zmdi-assignment-o",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 48963,
+                            "peran_id": 1,
+                            "menu_id": 171,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 345,
+                    "label_menu": "Rekap Sektor Pendidikan Prov. Aceh",
+                    "tautan": "form/report/29696",
+                    "parent_id": 51,
+                    "no_urut": 121,
+                    "icon": "zmdi zmdi-book",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 77484,
+                            "peran_id": 1,
+                            "menu_id": 345,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 348,
+                    "label_menu": "Rekap Izin Kab. Touna",
+                    "tautan": "form/report/46300",
+                    "parent_id": 51,
+                    "no_urut": 123,
+                    "icon": "zmdi zmdi-archive",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 78101,
+                            "peran_id": 1,
+                            "menu_id": 348,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 349,
+                    "label_menu": "Rekap Pemohon MaJalengka",
+                    "tautan": "form/report/47045",
+                    "parent_id": 51,
+                    "no_urut": 126,
+                    "icon": "zmdi zmdi-book",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 78449,
+                            "peran_id": 1,
+                            "menu_id": 349,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 350,
+                    "label_menu": "Rekap Izin Selesai Majalengka",
+                    "tautan": "form/report/47050",
+                    "parent_id": 51,
+                    "no_urut": 127,
+                    "icon": "zmdi zmdi-book",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 78450,
+                            "peran_id": 1,
+                            "menu_id": 350,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 351,
+                    "label_menu": "Rekap Data Permohonan Izin Majalengka",
+                    "tautan": "form/report/47051",
+                    "parent_id": 51,
+                    "no_urut": 128,
+                    "icon": "zmdi zmdi-book",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 78451,
+                            "peran_id": 1,
+                            "menu_id": 351,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 267,
+                    "label_menu": "Rekap Data Pemohon",
+                    "tautan": "form/report/36720",
+                    "parent_id": 51,
+                    "no_urut": 131,
+                    "icon": "zmdi zmdi-layers",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 67269,
+                            "peran_id": 1,
+                            "menu_id": 267,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 352,
+                    "label_menu": "Rekap Kesehatan 3326",
+                    "tautan": "form/report/47163",
+                    "parent_id": 51,
+                    "no_urut": 132,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 78465,
+                            "peran_id": 1,
+                            "menu_id": 352,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 258,
+                    "label_menu": "Rekap Izin - Kab Bungo",
+                    "tautan": "form/report/35371",
+                    "parent_id": 51,
+                    "no_urut": 132,
+                    "icon": "zmdi zmdi-collection-text",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 66091,
+                            "peran_id": 1,
+                            "menu_id": 258,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 276,
+                    "label_menu": "Rekap Jenis Izin Kota Prabumulih",
+                    "tautan": "form/report/37377",
+                    "parent_id": 51,
+                    "no_urut": 134,
+                    "icon": "zmdi zmdi-assignment-o",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 67905,
+                            "peran_id": 1,
+                            "menu_id": 276,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 246,
+                    "label_menu": "Rekap Izin Rekomendasi Penelitian Kabupaten Gianyar",
+                    "tautan": "form/report/31053",
+                    "parent_id": 51,
+                    "no_urut": 147,
+                    "icon": "zmdi zmdi-window-maximize",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 59551,
+                            "peran_id": 1,
+                            "menu_id": 246,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 324,
+                    "label_menu": "Rekap Bulanan Karangasem",
+                    "tautan": "form/report/43371",
+                    "parent_id": 51,
+                    "no_urut": 150,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 73413,
+                            "peran_id": 1,
+                            "menu_id": 324,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 232,
+                    "label_menu": "Rekap izin Provinsi Lampung",
+                    "tautan": "form/report/30963",
+                    "parent_id": 51,
+                    "no_urut": 150,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 55388,
+                            "peran_id": 1,
+                            "menu_id": 232,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 247,
+                    "label_menu": "Rekap laporan Perizinan ",
+                    "tautan": "form/report/23020",
+                    "parent_id": 51,
+                    "no_urut": 150,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 59553,
+                            "peran_id": 1,
+                            "menu_id": 247,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 296,
+                    "label_menu": "Rekap Per Sektor",
+                    "tautan": "form/report/39961",
+                    "parent_id": 51,
+                    "no_urut": 150,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 69719,
+                            "peran_id": 1,
+                            "menu_id": 296,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 376,
+                    "label_menu": "Rekap Data Perizinan DIY",
+                    "tautan": "form/report/48714",
+                    "parent_id": 51,
+                    "no_urut": 150,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 81748,
+                            "peran_id": 1,
+                            "menu_id": 376,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 325,
+                    "label_menu": "Rekap Izin Kabupaten Hulu Sungai Selatan",
+                    "tautan": "form/report/43378",
+                    "parent_id": 51,
+                    "no_urut": 151,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 73415,
+                            "peran_id": 1,
+                            "menu_id": 325,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 311,
+                    "label_menu": "Laporan Kota Pangkalpinang",
+                    "tautan": "form/report/28617",
+                    "parent_id": 51,
+                    "no_urut": 155,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 71416,
+                            "peran_id": 1,
+                            "menu_id": 311,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 347,
+                    "label_menu": "Rekapitulasi Permohonan izin",
+                    "tautan": "form/report/46590",
+                    "parent_id": 51,
+                    "no_urut": 155,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 78006,
+                            "peran_id": 1,
+                            "menu_id": 347,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 233,
+                    "label_menu": "Laporan Kabupaten Agam",
+                    "tautan": "form/report/30961",
+                    "parent_id": 51,
+                    "no_urut": 155,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 55391,
+                            "peran_id": 1,
+                            "menu_id": 233,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 491,
+                    "label_menu": "laporan Izin Minerba",
+                    "tautan": "form/report/29697",
+                    "parent_id": 51,
+                    "no_urut": 155,
+                    "icon": "zmdi zmdi-assignment-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 88730,
+                            "peran_id": 1,
+                            "menu_id": 491,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 415,
+                    "label_menu": "Permohonan Selesai Asahan",
+                    "tautan": "form/report-grid/16083",
+                    "parent_id": 51,
+                    "no_urut": 155,
+                    "icon": "zmdi zmdi-assignment-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 84575,
+                            "peran_id": 1,
+                            "menu_id": 415,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 416,
+                    "label_menu": "Rekap Tandatangan Izin Terbit Pandeglang",
+                    "tautan": "form/report/50200",
+                    "parent_id": 51,
+                    "no_urut": 166,
+                    "icon": "zmdi zmdi-assignment-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 84786,
+                            "peran_id": 1,
+                            "menu_id": 416,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 375,
+                    "label_menu": "Sektor DPMPTSP (N)",
+                    "tautan": "form/report/48656",
+                    "parent_id": 51,
+                    "no_urut": 191,
+                    "icon": "zmdi zmdi-archive",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 81241,
+                            "peran_id": 1,
+                            "menu_id": 375,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 241,
+                    "label_menu": "Kinerja Pegawai",
+                    "tautan": "form/report/32823",
+                    "parent_id": 51,
+                    "no_urut": 200,
+                    "icon": "zmdi zmdi-assignment-account",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 59057,
+                            "peran_id": 1,
+                            "menu_id": 241,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 221,
+                    "label_menu": "Belum Siap Prov.Aceh",
+                    "tautan": "form/report/30089",
+                    "parent_id": 51,
+                    "no_urut": 200,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 53471,
+                            "peran_id": 1,
+                            "menu_id": 221,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 227,
+                    "label_menu": "Rekap Izin Lingkungan BVD",
+                    "tautan": "form/report/30692",
+                    "parent_id": 51,
+                    "no_urut": 200,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 54135,
+                            "peran_id": 1,
+                            "menu_id": 227,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 236,
+                    "label_menu": "Rekap Izin Penelitian (sawahlunto)",
+                    "tautan": "form/report/32002",
+                    "parent_id": 51,
+                    "no_urut": 200,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 56845,
+                            "peran_id": 1,
+                            "menu_id": 236,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 315,
+                    "label_menu": "Rekap Permohonan Izin Reklame - Kapuas",
+                    "tautan": "form/report/41691",
+                    "parent_id": 51,
+                    "no_urut": 200,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 71576,
+                            "peran_id": 1,
+                            "menu_id": 315,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 342,
+                    "label_menu": "Rekap Sektor Kebudayaan Prov. Aceh",
+                    "tautan": "form/report/45932",
+                    "parent_id": 51,
+                    "no_urut": 201,
+                    "icon": "zmdi zmdi-archive",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 77020,
+                            "peran_id": 1,
+                            "menu_id": 342,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 343,
+                    "label_menu": "Rekap Sektor Pora Prov. Aceh",
+                    "tautan": "form/report/45933",
+                    "parent_id": 51,
+                    "no_urut": 202,
+                    "icon": "zmdi zmdi-archive",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 77021,
+                            "peran_id": 1,
+                            "menu_id": 343,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 344,
+                    "label_menu": "Laporan KPS Prov. Aceh",
+                    "tautan": "form/report/45941",
+                    "parent_id": 51,
+                    "no_urut": 203,
+                    "icon": "zmdi zmdi-assignment-returned",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 77189,
+                            "peran_id": 1,
+                            "menu_id": 344,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 499,
+                    "label_menu": "Rekap Permohonan Izin Selesai (PMK)",
+                    "tautan": "form/report/52663",
+                    "parent_id": 51,
+                    "no_urut": 210,
+                    "icon": "zmdi zmdi-trending-up",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 90869,
+                            "peran_id": 1,
+                            "menu_id": 499,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 373,
+                    "label_menu": "Rekap Izin Hulu Sungai Tengah",
+                    "tautan": "form/report/48771",
+                    "parent_id": 51,
+                    "no_urut": 221,
+                    "icon": "zmdi zmdi-assignment-returned",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 81224,
+                            "peran_id": 1,
+                            "menu_id": 373,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 318,
+                    "label_menu": "Report izin \u0026 Link - Kab.Tanjung Jabung Barat",
+                    "tautan": "form/report/42828",
+                    "parent_id": 51,
+                    "no_urut": 230,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 72507,
+                            "peran_id": 1,
+                            "menu_id": 318,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 250,
+                    "label_menu": "Repot Izin Kabupaten Pandeglang",
+                    "tautan": "form/report/33886",
+                    "parent_id": 51,
+                    "no_urut": 250,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 61812,
+                            "peran_id": 1,
+                            "menu_id": 250,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 253,
+                    "label_menu": "Rekap Izin Per Periode - Muara Enim",
+                    "tautan": "form/report/32398",
+                    "parent_id": 51,
+                    "no_urut": 300,
+                    "icon": "zmdi zmdi-assignment-account",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 64735,
+                            "peran_id": 1,
+                            "menu_id": 253,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 249,
+                    "label_menu": "Data Praktik Dokter",
+                    "tautan": "form/report/33694",
+                    "parent_id": 51,
+                    "no_urut": 300,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 61562,
+                            "peran_id": 1,
+                            "menu_id": 249,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 291,
+                    "label_menu": "PND_REKAP_IZIN",
+                    "tautan": "form/report/39479",
+                    "parent_id": 51,
+                    "no_urut": 300,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 69413,
+                            "peran_id": 1,
+                            "menu_id": 291,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 295,
+                    "label_menu": "PND_Rekap_Izin2",
+                    "tautan": "form/report/39918",
+                    "parent_id": 51,
+                    "no_urut": 301,
+                    "icon": "zmdi zmdi-case-download",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 69688,
+                            "peran_id": 1,
+                            "menu_id": 295,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 355,
+                    "label_menu": "Sektor Kesehatan (Natuna)",
+                    "tautan": "form/report/47007",
+                    "parent_id": 51,
+                    "no_urut": 301,
+                    "icon": "zmdi zmdi-book",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 78531,
+                            "peran_id": 1,
+                            "menu_id": 355,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 282,
+                    "label_menu": "Rekap Jenis Izin Kota Prabumulih",
+                    "tautan": "form/report/37377",
+                    "parent_id": 51,
+                    "no_urut": 312,
+                    "icon": "zmdi zmdi-book",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 68060,
+                            "peran_id": 1,
+                            "menu_id": 282,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 457,
+                    "label_menu": "Rekap Laporan Izin Kab. Pangandaran",
+                    "tautan": "form/report/52114",
+                    "parent_id": 51,
+                    "no_urut": 395,
+                    "icon": "zmdi zmdi-card-sim",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 88484,
+                            "peran_id": 1,
+                            "menu_id": 457,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 297,
+                    "label_menu": "Rekap Waktu Proses",
+                    "tautan": "form/report/39976",
+                    "parent_id": 51,
+                    "no_urut": 400,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 69724,
+                            "peran_id": 1,
+                            "menu_id": 297,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 362,
+                    "label_menu": "Sektor Pendidikan (N)",
+                    "tautan": "form/report/48323",
+                    "parent_id": 51,
+                    "no_urut": 401,
+                    "icon": "zmdi zmdi-book",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 80090,
+                            "peran_id": 1,
+                            "menu_id": 362,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 456,
+                    "label_menu": "Rekap Izin Penyehat Tradisional - Majalengka ",
+                    "tautan": "form/report/51933",
+                    "parent_id": 51,
+                    "no_urut": 410,
+                    "icon": "zmdi zmdi-book",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 88141,
+                            "peran_id": 1,
+                            "menu_id": 456,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 360,
+                    "label_menu": "Rekap Izin Lengkap (Touna)",
+                    "tautan": "form/report/47473",
+                    "parent_id": 51,
+                    "no_urut": 411,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 78753,
+                            "peran_id": 1,
+                            "menu_id": 360,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 455,
+                    "label_menu": "Rekap Izin KT Kab",
+                    "tautan": "form/report/51636",
+                    "parent_id": 51,
+                    "no_urut": 459,
+                    "icon": "zmdi zmdi-assignment-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 87577,
+                            "peran_id": 1,
+                            "menu_id": 455,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 286,
+                    "label_menu": "Rekapitulasi Perizinan - Kabupaten Banyuasin",
+                    "tautan": "form/report/38201",
+                    "parent_id": 51,
+                    "no_urut": 500,
+                    "icon": "zmdi zmdi-badge-check",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 68577,
+                            "peran_id": 1,
+                            "menu_id": 286,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 398,
+                    "label_menu": "Rekap Izin Kabupaten Pamekasan",
+                    "tautan": "form/report/49322",
+                    "parent_id": 51,
+                    "no_urut": 507,
+                    "icon": "zmdi zmdi-assignment-returned",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 82633,
+                            "peran_id": 1,
+                            "menu_id": 398,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 363,
+                    "label_menu": "Rekap Izin Trayek (MJ)",
+                    "tautan": "form/report/48425",
+                    "parent_id": 51,
+                    "no_urut": 601,
+                    "icon": "zmdi zmdi-balance-wallet",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 80205,
+                            "peran_id": 1,
+                            "menu_id": 363,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 364,
+                    "label_menu": "Rekap Izin Kesehatan (MJ)",
+                    "tautan": "form/report/48481",
+                    "parent_id": 51,
+                    "no_urut": 602,
+                    "icon": "zmdi zmdi-balance-wallet",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 80206,
+                            "peran_id": 1,
+                            "menu_id": 364,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 365,
+                    "label_menu": "Rekap Izin Pendidikan (MJ)",
+                    "tautan": "form/report/48482",
+                    "parent_id": 51,
+                    "no_urut": 603,
+                    "icon": "zmdi zmdi-balance-wallet",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 80207,
+                            "peran_id": 1,
+                            "menu_id": 365,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 367,
+                    "label_menu": "Sektor Lingkungan Hidup (N)",
+                    "tautan": "form/report/48471",
+                    "parent_id": 51,
+                    "no_urut": 606,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 80254,
+                            "peran_id": 1,
+                            "menu_id": 367,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 369,
+                    "label_menu": " Sektor Ketentraman dan Ketertiban Umum PM(N)",
+                    "tautan": "form/report/48568",
+                    "parent_id": 51,
+                    "no_urut": 610,
+                    "icon": "zmdi zmdi-book",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 80457,
+                            "peran_id": 1,
+                            "menu_id": 369,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 374,
+                    "label_menu": "Rekap Izin SIPD PBG",
+                    "tautan": "form/report/48812",
+                    "parent_id": 51,
+                    "no_urut": 701,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 81239,
+                            "peran_id": 1,
+                            "menu_id": 374,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 377,
+                    "label_menu": "Permohonan Ditolak (N)",
+                    "tautan": "form/report/48869",
+                    "parent_id": 51,
+                    "no_urut": 703,
+                    "icon": "zmdi zmdi-assignment-alert",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 81930,
+                            "peran_id": 1,
+                            "menu_id": 377,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 417,
+                    "label_menu": "Rekap Izin Belum Selesai",
+                    "tautan": "form/report-grid/50479",
+                    "parent_id": 51,
+                    "no_urut": 712,
+                    "icon": "zmdi zmdi-assignment",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 85231,
+                            "peran_id": 1,
+                            "menu_id": 417,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 500,
+                    "label_menu": "Rekap Izin Penelitian Kab.Poso",
+                    "tautan": "form/report/53153",
+                    "parent_id": 51,
+                    "no_urut": 801,
+                    "icon": "zmdi zmdi-assignment-returned",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 91174,
+                            "peran_id": 1,
+                            "menu_id": 500,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 420,
+                    "label_menu": "Rekap Izin SLA - Kab. PBG",
+                    "tautan": "form/report/51047",
+                    "parent_id": 51,
+                    "no_urut": 801,
+                    "icon": "zmdi zmdi-inbox",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 85971,
+                            "peran_id": 1,
+                            "menu_id": 420,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 502,
+                    "label_menu": "Rekap Jumlah Izin per Izin",
+                    "tautan": "form/report/54439",
+                    "parent_id": 51,
+                    "no_urut": 890,
+                    "icon": "zmdi zmdi-assignment-o",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 92978,
+                            "peran_id": 1,
+                            "menu_id": 502,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 400,
+                    "label_menu": "Laporan Izin Selesai (Kl)",
+                    "tautan": "form/report/49807",
+                    "parent_id": 51,
+                    "no_urut": 1008,
+                    "icon": "zmdi zmdi-print",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 84144,
+                            "peran_id": 1,
+                            "menu_id": 400,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 59,
+            "label_menu": "Layanan Pemohon",
+            "tautan": "#",
+            "no_urut": 100,
+            "icon": "zmdi zmdi-account",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 514,
+                    "peran_id": 1,
+                    "menu_id": 59
+                }
+            },
+            "children": [
+                {
+                    "id": 58,
+                    "label_menu": "Profil dan Permohonan Izin",
+                    "tautan": "profile/pemohon",
+                    "parent_id": 59,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-assignment-account",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 515,
+                            "peran_id": 1,
+                            "menu_id": 58
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 60,
+                    "label_menu": "Simulasi Tarif",
+                    "tautan": "simulasi-tarif",
+                    "parent_id": 59,
+                    "no_urut": 101,
+                    "icon": "zmdi zmdi-money-box",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 516,
+                            "peran_id": 1,
+                            "menu_id": 60
+                        }
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 332,
+            "label_menu": "Video Tutorial",
+            "tautan": "video-tutorial/show",
+            "no_urut": 100,
+            "icon": "zmdi zmdi-collection-video",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 74143,
+                    "peran_id": 1,
+                    "menu_id": 332,
+                    "dibuat_oleh": "otomatis"
+                }
+            },
+            "children": []
+        },
+        {
+            "id": 385,
+            "label_menu": "Portal",
+            "tautan": "/",
+            "no_urut": 100,
+            "icon": "zmdi zmdi-card-membership",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 82435,
+                    "peran_id": 1,
+                    "menu_id": 385,
+                    "dibuat_oleh": "otomatis"
+                }
+            },
+            "children": [
+                {
+                    "id": 390,
+                    "label_menu": "Prosedur Operasional",
+                    "tautan": "prosedur-operasional",
+                    "parent_id": 385,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-tab",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 82451,
+                            "peran_id": 1,
+                            "menu_id": 390,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 391,
+                    "label_menu": "Informasi",
+                    "tautan": "#",
+                    "parent_id": 385,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-info-outline",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 82452,
+                            "peran_id": 1,
+                            "menu_id": 391,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": [
+                        {
+                            "id": 394,
+                            "label_menu": "Kategori Informasi",
+                            "tautan": "informasi-kategori",
+                            "parent_id": 391,
+                            "no_urut": 100,
+                            "icon": "zmdi zmdi-info",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 82455,
+                                    "peran_id": 1,
+                                    "menu_id": 394,
+                                    "dibuat_oleh": "otomatis"
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 418,
+                            "label_menu": "Manajemen Informasi",
+                            "tautan": "informasi",
+                            "parent_id": 391,
+                            "no_urut": 100,
+                            "icon": "zmdi zmdi-filter-frames",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 85591,
+                                    "peran_id": 1,
+                                    "menu_id": 418,
+                                    "dibuat_oleh": "otomatis"
+                                }
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 392,
+                    "label_menu": "Manajemen Galeri",
+                    "tautan": "manajemen-galeri",
+                    "parent_id": 385,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-collection-image",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 82453,
+                            "peran_id": 1,
+                            "menu_id": 392,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": []
+                },
+                {
+                    "id": 393,
+                    "label_menu": "Artikel",
+                    "tautan": "#",
+                    "parent_id": 385,
+                    "no_urut": 100,
+                    "icon": "zmdi zmdi-receipt",
+                    "_matchingData": {
+                        "PeranMenu": {
+                            "id": 82454,
+                            "peran_id": 1,
+                            "menu_id": 393,
+                            "dibuat_oleh": "otomatis"
+                        }
+                    },
+                    "children": [
+                        {
+                            "id": 396,
+                            "label_menu": "Kategori Artikel",
+                            "tautan": "artikel-kategori",
+                            "parent_id": 393,
+                            "no_urut": 100,
+                            "icon": "zmdi zmdi-collection-text",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 82457,
+                                    "peran_id": 1,
+                                    "menu_id": 396,
+                                    "dibuat_oleh": "otomatis"
+                                }
+                            },
+                            "children": []
+                        },
+                        {
+                            "id": 397,
+                            "label_menu": "Manajemen Artikel",
+                            "tautan": "artikel",
+                            "parent_id": 393,
+                            "no_urut": 100,
+                            "icon": "zmdi zmdi-receipt",
+                            "_matchingData": {
+                                "PeranMenu": {
+                                    "id": 82458,
+                                    "peran_id": 1,
+                                    "menu_id": 397,
+                                    "dibuat_oleh": "otomatis"
+                                }
+                            },
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 419,
+            "label_menu": "Menu",
+            "tautan": "form/list/2883",
+            "parent_id": 48,
+            "no_urut": 7,
+            "icon": "zmdi zmdi-bike",
+            "_matchingData": {
+                "PeranMenu": {
+                    "id": 85934,
+                    "peran_id": 1,
+                    "menu_id": 419,
+                    "dibuat_oleh": "otomatis"
+                }
+            },
+            "children": []
+        }
+    ]
